@@ -1,0 +1,22 @@
+void main() 
+{
+  Sbce cs=Sbce("cse");
+  cs.department();
+  List names=["anjali","aravind",34,3.4];
+  names.add("manu");
+  names.remove(34);
+  int a=60;
+  dynamic name="rahul";
+  
+  name=45;
+  
+  print(names);
+}
+class Sbce{
+    String dept;
+    Sbce(department)
+     {
+    this.dept=department;
+     }
+    void department()=>print(this.dept);
+}
